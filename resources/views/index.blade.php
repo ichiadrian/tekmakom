@@ -64,8 +64,10 @@
 										<span class="icon-bar"></span>
 									</button>
                 <!-- Brand -->
-                <a class="navbar-brand page-scroll sticky-logo" href="index.html">
-                  <h1><span>e</span>Business</h1>
+                <img src="{{url('')}}/assets/img/img/tek.png" style="width: 35%; " alt="">
+                <a class="navbar-brand page-scroll sticky-logo" href="#">
+                  {{-- <h1 style="color: #337ab7;"><span>e</span>TEKMAKOM</h1> --}}
+                  
                   <!-- Uncomment below if you prefer to use an image logo -->
                   <!-- <img src="img/logo.png" alt="" title=""> -->
 								</a>
@@ -80,25 +82,25 @@
                     <a class="page-scroll" href="#about">About</a>
                   </li>
                   <li>
-                    <a class="page-scroll" href="#services">Services</a>
+                    <a class="page-scroll" href="#services">Solution</a>
                   </li>
-                  <li>
+                  {{-- <li>
                     <a class="page-scroll" href="#team">Team</a>
-                  </li>
+                  </li> --}}
                   <li>
                     <a class="page-scroll" href="#portfolio">Portfolio</a>
                   </li>
 
-                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Drop Down<span class="caret"></span></a>
+                  {{-- <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Drop Down<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                       <li><a href=# >Drop Down 1</a></li>
                       <li><a href=# >Drop Down 2</a></li>
                     </ul> 
-                  </li>
+                  </li> --}}
 
-                  <li>
+                  {{-- <li>
                     <a class="page-scroll" href="#blog">Blog</a>
-                  </li>
+                  </li> --}}
                   <li>
                     <a class="page-scroll" href="#contact">Contact</a>
                   </li>
@@ -208,7 +210,7 @@
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="section-headline text-center">
-            <h2>About eBusiness</h2>
+            <h2>About Tekmakom</h2>
           </div>
         </div>
       </div>
@@ -228,10 +230,16 @@
           <div class="well-middle">
             <div class="single-well">
               <a href="#">
-                <h4 class="sec-head">project Maintenance</h4>
+                <h4 class="sec-head">project</h4>
               </a>
               <p>
-                Redug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure aspernatur sit adipisci quaerat unde at nequeRedug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure
+                VSAT Internet Maritime
+                Radio Telekomunikasi and Navigasi
+                Fiber optic To The Home
+                dCCTV, RFID, IoT 
+                Servers, Computers, Softwares and Network Device
+                Solar energy system Photovoltaic (PV)
+                Command Center 
               </p>
               <ul>
                 <li>
@@ -277,9 +285,9 @@
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-											<i class="fa fa-code"></i>
+											<i class="fa fa-internet-explorer"></i>
 										</a>
-                  <h4>Expert Coder</h4>
+                  <h4>Internet Maritime</h4>
                   <p>
                     will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                   </p>
@@ -293,9 +301,9 @@
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-											<i class="fa fa-camera-retro"></i>
+                    <i class="fa fa-rss" aria-hidden="true"></i>
 										</a>
-                  <h4>Creative Designer</h4>
+                  <h4>Wirelles Communication</h4>
                   <p>
                     will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                   </p>
@@ -310,9 +318,9 @@
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-											<i class="fa fa-wordpress"></i>
+                    <i class="fa fa-laptop" aria-hidden="true"></i>
 										</a>
-                  <h4>Wordpress Developer</h4>
+                  <h4>Computers</h4>
                   <p>
                     will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                   </p>
@@ -327,9 +335,13 @@
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-											<i class="fa fa-camera-retro"></i>
+										<i class="fa fa-rocket" aria-hidden="true"></i><a class="navbar-brand page-scroll sticky-logo" href="index.html">
+                  <h1><span>e</span>Business</h1>
+                  <!-- Uncomment below if you prefer to use an image logo -->
+                  <!-- <img src="img/logo.png" alt="" title=""> -->
+								</a>
 										</a>
-                  <h4>Social Marketer </h4>
+                  <h4>Software </h4>
                   <p>
                     will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                   </p>
@@ -347,7 +359,7 @@
                   <a class="services-icon" href="#">
 											<i class="fa fa-bar-chart"></i>
 										</a>
-                  <h4>Seo Expart</h4>
+                  <h4>Energy</h4>
                   <p>
                     will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                   </p>
@@ -365,7 +377,7 @@
                   <a class="services-icon" href="#">
 											<i class="fa fa-ticket"></i>
 										</a>
-                  <h4>24/7 Support</h4>
+                  <h4>Command Center</h4>
                   <p>
                     will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                   </p>
@@ -617,7 +629,7 @@
   <!-- End Wellcome Area -->
 
   <!-- Start team Area -->
-  <div id="team" class="our-team-area area-padding">
+  {{-- <div id="team" class="our-team-area area-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
@@ -763,7 +775,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
   <!-- End Team Area -->
 
   <!-- Start reviews Area -->
@@ -771,7 +783,7 @@
     <div class="work-us">
       <div class="work-left-text">
         <a href="#">
-						<img src="{{url('')}}/assets/img/about/2.jpg" alt="">
+						<img src="{{url('')}}/assets/img/produk/kapal.jpeg" style="width: 500px; " alt="">
 					</a>
       </div>
       <div class="work-right-text text-center">
@@ -820,10 +832,10 @@
           <div class="col-md-4 col-sm-4 col-xs-12 design development">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="{{url('')}}/assets/img/portfolio/1.jpg" alt="" /></a>
+                <a href="#"><img src="{{url('')}}/assets/img/produk/pemancar.jpeg" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/1.jpg">
+                    <a class="venobox" data-gall="myGallery" href="{{url('')}}/assets/img/produk/pemancar.jpeg">
                       <h4>Business City</h4>
                       <span>Web Development</span>
                     </a>
@@ -837,10 +849,10 @@
           <div class="col-md-4 col-sm-4 col-xs-12 photo">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="{{url('')}}/assets/img/portfolio/2.jpg" alt="" /></a>
+                <a href="#"><img src="{{url('')}}/assets/img/produk/satelit.jpeg" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/2.jpg">
+                    <a class="venobox" data-gall="myGallery" href="{{url('')}}/assets/img/produk/satelit.jpeg">
                       <h4>Blue Sea</h4>
                       <span>Photosho</span>
                     </a>
@@ -924,7 +936,7 @@
   </div>
   <!-- awesome-portfolio end -->
   <!-- start pricing area -->
-  <div id="pricing" class="pricing-area area-padding">
+  {{-- <div id="pricing" class="pricing-area area-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
@@ -985,7 +997,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
   <!-- End pricing table area -->
   <!-- Start Testimonials -->
   <div class="testimonials-area">
