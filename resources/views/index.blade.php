@@ -220,7 +220,7 @@
           <div class="well-left">
             <div class="single-well">
               <a href="#">
-								  <img src="{{url('')}}/assets/img/about/1.jpg" alt="">
+								  <img src="{{url('')}}/assets/img/produk/satelit.jpeg" alt="">
 								</a>
             </div>
           </div>
@@ -1278,10 +1278,18 @@
             <div class="footer-content">
               <div class="footer-head">
                 <div class="footer-logo">
-                  <h2><span>e</span>Business</h2>
+                  <img src="{{url('')}}/assets/img/img/tek.png" style="width: 60%; " alt="">
+
+                  {{-- <h2><span></span>Tekmakom</h2> --}}
                 </div>
 
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                <p>VSAT Internet Maritime
+                  Radio Telekomunikasi and Navigasi
+                  Fiber optic To The Home
+                  CCTV, RFID, IoT 
+                  Servers, Computers, Softwares and Network Device
+                  Solar energy system Photovoltaic (PV)
+                  Command Center</p>
                 <div class="footer-icons">
                   <ul>
                     <li>
@@ -1342,7 +1350,7 @@
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="copyright text-center">
               <p>
-                &copy; Copyright <strong>eBusiness</strong>. All Rights Reserved
+                &copy; Copyright <strong>Tekmakom</strong>. All Rights Reserved
               </p>
             </div>
             <div class="credits">
